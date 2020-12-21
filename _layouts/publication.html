@@ -142,7 +142,7 @@ layout: default
     {% endif %}
 
     {% if page.external-project %}
-    <h1>Tool Website</h1>
+    <h1>Project Website</h1>
     <ul class="project-icon-list">
             <li><a href="{{page.external-project}}">{{ page.shortname }} Website</a></li>
     </ul>
@@ -202,7 +202,7 @@ layout: default
     </ul>
 
     {% if page.video or page.preview-video %}
-    <h1>Videos</h1>
+    <h1>Video(s)</h1>
     {% endif %}
     {% for video in site.videos %}
     {% if video.key == page.video or video.key == page.preview-video %}
